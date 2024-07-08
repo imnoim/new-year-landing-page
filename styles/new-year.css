@@ -1,0 +1,336 @@
+/* google font merriweather */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Merriweather", sans-serif;
+}
+
+/* universal selector */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* common utility */
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 16px 32px;
+    border: none;
+}
+
+.red-color {
+    color: red;
+}
+
+/* banner section styles start here */
+
+.banner-container {
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../assets/images/banner-image.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.banner-content p {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.banner-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+}
+
+/* 65% section styles */
+
+.offer-section-container {
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.offer-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.offer-section-content h1 {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+}
+
+.offer-section-container p {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.offer-section-container h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+
+.offer-section-img {
+    width: 802.9px;
+    height: 500px;
+}
+
+.offer-section-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* midnight styles */
+
+.midnight-container {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url("../assets/images/vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 126px 126px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.midnight-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    margin-bottom: 25px;
+}
+
+.midnight-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 45px;
+}
+
+.midnight-content h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+/* event info styles */
+
+.event-info {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 120px;
+}
+
+.event-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    gap: 40px;
+}
+
+/* coming soon section styles */
+
+.coming-soon-container {
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.coming-soon-left {
+    width: 33%;
+}
+
+.coming-soon-left h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.coming-soon-left h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.coming-soon-left p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.coming-soon-middle {
+    width: 33%;
+}
+
+.coming-soon-middle img {
+    width: 364.84px;
+    height: 364.84px;
+    text-align: center;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 0, 0);
+    padding: 15px;
+}
+
+.coming-soon-right {
+    width: 33%;
+}
+
+.coming-soon-right h1 {
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+
+.coming-soon-right p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.coming-soon-right img {
+    width: 140px;
+    height: 140px;
+}
+
+.coming-soon-left-content,
+.coming-soon-right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* holiday section styles */
+
+.holiday-section-container {
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.holiday-section-content {
+    width: 1068px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.holiday-section-content h4 {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.holiday-section-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+}
+
+.holiday-section-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.red-color-banner {
+    background-color: rgb(255, 0, 0);
+    width: 1320px;
+    height: 229px;
+    position: absolute;
+    bottom: 0;
+}
+
+.hoiliday-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
